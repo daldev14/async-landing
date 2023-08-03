@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-TileColor" content="#22c55e" />
+    <meta name="theme-color" content="#22c55e" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/safari-pinned-tab.svg"
+      color="#22c55e"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Mundo Salvaje</title>
+  </head>
+  <body>
+    <div class="relative bg-white overflow-hidden">
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
+        >
+          <svg
+            class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+            fill="currentColor"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <polygon points="50,0 100,0 50,100 0,100" />
+          </svg>
+          <div>
+            <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+              <nav
+                class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+                aria-label="Global"
+              >
+                <div
+                  class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
+                >
+                  <div
+                    class="flex items-center justify-between w-full md:w-auto"
+                  >
+                    <a href="/">
+                      <span class="sr-only">Mundo Salvaje</span>
+                      <img
+                        class="h-8 w-auto sm:h-12"
+                        src="./assets/img/logo.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                  <a
+                    href="#videos"
+                    class="font-medium text-gray-500 hover:text-gray-900"
+                    >Videos</a
+                  >
+                  <a
+                    href="#contacto"
+                    class="font-medium text-gray-500 hover:text-gray-900"
+                    >Contacto</a
+                  >
+                </div>
+              </nav>
+            </div>
+          </div>
+
+          <main
+            class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
+          >
+            <div class="sm:text-center lg:text-left">
+              <h1
+                class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
+              >
+                <span class="block xl:inline"> Mundo</span>
+                <span class="block text-green-500 xl:inline">Salvaje</span>
+              </h1>
+              <p
+                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+              >
+                Explora la naturaleza en su máxima expresión con Mundo Salvaje.
+                Aventúrate en hábitats indómitos y descubre la fascinante vida
+                de animales salvajes en su entorno natural. Conecta con la
+                belleza y la diversidad de nuestro planeta a través de imágenes
+                y relatos cautivadores.
+              </p>
+            </div>
+          </main>
+        </div>
+      </div>
+      <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <img
+          class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+          src="https://images.pexels.com/photos/1598377/pexels-photo-1598377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="bg-white" id="videos">
+      <div
+        class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
+      >
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">
+          Últimos vídeos en YouTube
+        </h2>
+        <div
+          class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+          id="content"
+        >
+          <!-- content -->
+        </div>
+      </div>
+    </div>
+    <div class="bg-green-50" id="contacto">
+      <div
+        class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
+      >
+        <h2
+          class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          <span class="block">Contacto</span>
+          <span class="block text-green-500">Manténgase en contacto.</span>
+        </h2>
+        <div class="mt-8 gap-4 flex items-center lg:mt-0 lg:flex-shrink-0">
+          <svg
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#FF0000"
+            class="w-8 h-8 cursor-pointer"
+          >
+            <title>YouTube</title>
+            <path
+              d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+            />
+          </svg>
+          <svg
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#1D9BF0"
+            class="w-8 h-8 cursor-pointer"
+          >
+            <title>Twitter</title>
+            <path
+              d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
